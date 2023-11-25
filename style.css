@@ -1,1 +1,105 @@
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; 
+}
+
+header {
+    background-color: #d9534f; 
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url('img3.png'); 
+    background-size: cover;
+    height: 400px; 
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.quote {
+    max-width: 400px;
+}
+
+.join-us-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d9534f; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feature-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.feature-section button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.feature-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.feature-section figcaption {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
