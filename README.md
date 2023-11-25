@@ -1,2 +1,2 @@
 # CSE-326-Project
-# i have to separate the css and html
+# will separate the css and html tomorrow ,till then dont add anything
