@@ -27,9 +27,10 @@ nav a {
     margin: 0 10px;
 }
 
-.search-bar {
-    display: flex;
-    align-items: center;
+nav a:hover {
+    transition: all 0.2s;
+    background-color: lightgray;
+    color: black;
 }
 
 input[type="text"] {
@@ -46,7 +47,7 @@ main {
 
 .hero-image {
     position: relative;
-    background-image: url('img3.png'); 
+    background-image: url('blood.jpg'); 
     background-size: cover;
     height: 400px; 
     text-align: left;
@@ -58,6 +59,7 @@ main {
 
 .quote {
     max-width: 400px;
+    color:blanchedalmond;
 }
 
 .join-us-button {
@@ -70,12 +72,22 @@ main {
     cursor: pointer;
 }
 
+.join-us-button:hover {
+    transition: transform 0.3s;
+    transform: scale(1.05);
+}
+
 .feature-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.feature-section a {
+    text-decoration: none;
+    color: black;
 }
 
 .feature-section button {
@@ -83,6 +95,11 @@ main {
     border: none;
     cursor: pointer;
     text-align: center;
+}
+
+.feature-section button:hover {
+    transition: transform 0.2s;
+    transform: scale(1.03);
 }
 
 .feature-section img {
@@ -95,11 +112,104 @@ main {
     margin-top: 10px;
 }
 
+.head {
+    height: 10vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container:hover {
+    cursor: pointer;
+    transition: transform 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0 0 0 0.8);
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.text {
+    padding: 15px;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.image-text-container img {
+    width: 50%;
+    height: auto;
+    border-right: 1px solid #ddd;
+}
+
+.image-text-container .text {
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.text #donate {
+    padding: 25px;
+    border: none;
+    background-color: #f4f4f4;
+}
+.text #donate:hover {
+    transition: all 0.3s;
+    background-color:#d9534f;
+    border-radius: 20px;
+    color: white;
+}
+.footing {
+    background-color: #ccc;
+    padding: 2%;
+}
+.foot {
+    display: flex;
+    margin: 20px;
+}
+.foot h1 {
+    font-size: 40px;
+}
+.foot p {
+    font-size: 20px;
+}
+
+.foot img {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
 footer {
     background-color: #333;
     color: white;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
 }
