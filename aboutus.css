@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #d9534f;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    transition: all 0.2s;
+    background-color: lightgray;
+    color: black;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url('blood.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.quote {
+    max-width: 400px;
+    color: blanchedalmond;
+}
+
+.join-us-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.join-us-button:hover {
+    transition: transform 0.3s;
+    transform: scale(1.05);
+}
+
+main {
+    margin-top: 20px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+}
