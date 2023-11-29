@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin-login-page.css">
+    <script src="login.js"></script>
+  <style>
+    body{
+        background-image: url(https://img.freepik.com/premium-vector/white-background-gradient-abstract-design-modern_343694-3049.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  </style>
+</head>
+<body>
+    <span style="width:100%">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/adminlogin.html" target="_self">AdminLogin</a></li>&nbsp;
+          <li><a href="http://127.0.0.1:5500/blooddonation.html" target="_self">Home</a></li>&nbsp;
+         <li> <a href="http://127.0.0.1:5500/about.html" target="_self">About</a></li>&nbsp;
+          <li><a href="http://127.0.0.1:5500/contact.html" target="_self">Contact Us</a></li>
+          
+          </ul>
+     </span>
+     <div class="home">    
+        <pre style='text-align:center;color:white;font-size:20px;text-shadow:4px 4px 4px rgb(14, 18, 6)'><q>The blood you donate gives someone<br> another  chance at  life.</q></pre>
+        <h1>GIVE THE GIFT OF LIFE<BR><B>DONATE BLOOD</B></h1>
+      </div>
+    <div class="container">
+        <div class="myform">
+            <form>
+                <h2>ADMIN LOGIN</h2>
+                <label for="Admin"><b>Enter Username &nbsp;</b></label>
+                <INPUT type="TEXT" placeholder="Admin" id="username"> <br>
+                <label for="Password" required><b>Enter Password &nbsp;</b></label> 
+                <INPUT type="password" placeholder="Password" id="password"><br>
+                   
+                <button type='submit' onclick="validate()">LOGIN</button>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

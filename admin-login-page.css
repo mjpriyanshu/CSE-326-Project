@@ -1,0 +1,165 @@
+div.home{
+    border:2px double red;
+    background-image:url(https://media.istockphoto.com/id/1302642699/vector/abstract-red-vector-background-with-stripes-can-be-used-for-cover-design-poster-and.jpg?s=612x612&w=0&k=20&c=3cQPZx57nAV0f1evtuRk9p2EgmAVGb_A063Htb2_Gtw=),url(https://media.istockphoto.com/id/1320162065/vector/blood-cells-red-erythrocytes.jpg?s=612x612&w=0&k=20&c=rX8kGwiOsHW-V-BOal3Cf6ADKdjx_U5snDdykya0jbs=);background-attachment: scroll;background-blend-mode:darken;background-size: cover;
+}
+h1{
+text-align:justify;color:black;
+text-shadow: 2px 2px 4px yellow;
+margin-left: 800px;
+
+}
+a{
+border:none;background-image: none;text-decoration: none;
+}
+img{
+height:80px;}
+a:visited{
+color:black;
+}
+
+a:hover{
+    color:blue;
+}
+ul{
+    float:left;
+    list-style-type: none;
+    margin-top: 50px;
+    
+}
+ul li{
+    display:inline-block;
+    color: #0dac30;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:#0dac30;
+    padding: 15px 20px;
+    border:2px solid white;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #f7f7f7;
+    color: black;
+}
+
+div.container{
+    position:absolute;top:50%;
+    color:beige;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;flex-direction: row;
+    align-items:center;
+    background-color: aliceblue;
+    padding: 30px;
+    box-shadow: 0 50px 50px -50px ;
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg);
+}
+div.container div.myform h2{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+div.container div.myform input{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+div.container div.myform button{
+    color:white;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 12px;
+}
+
+/* banner section styles */
+.banner {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+ 
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+/* Contact form styles */
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+   
+}
+ /* Contact info styles */
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+ 
+/* Footer styles */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+h2{
+    text-align:center;
+}
+pre{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.i{
+    display:block;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
